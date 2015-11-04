@@ -16,6 +16,8 @@
 		A38E1D1B1BEA57AA000F3A58 /* FlickrAPIExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38E1D1A1BEA57AA000F3A58 /* FlickrAPIExampleUITests.swift */; };
 		A38E1D2A1BEA57E7000F3A58 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38E1D291BEA57E7000F3A58 /* Constants.swift */; };
 		A38E1D2D1BEA5B88000F3A58 /* Flick_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38E1D2C1BEA5B88000F3A58 /* Flick_Model.swift */; };
+		A38E1D2F1BEA8AEC000F3A58 /* tableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38E1D2E1BEA8AEC000F3A58 /* tableViewController.swift */; };
+		A38E1D311BEA8C1C000F3A58 /* myTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38E1D301BEA8C1C000F3A58 /* myTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		A38E1D1C1BEA57AA000F3A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A38E1D291BEA57E7000F3A58 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A38E1D2C1BEA5B88000F3A58 /* Flick_Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flick_Model.swift; sourceTree = "<group>"; };
+		A38E1D2E1BEA8AEC000F3A58 /* tableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
+		A38E1D301BEA8C1C000F3A58 /* myTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				A38E1CFA1BEA57AA000F3A58 /* AppDelegate.swift */,
 				A38E1CFC1BEA57AA000F3A58 /* ViewController.swift */,
 				A38E1CFE1BEA57AA000F3A58 /* Main.storyboard */,
+				A38E1D301BEA8C1C000F3A58 /* myTableViewCell.swift */,
+				A38E1D2E1BEA8AEC000F3A58 /* tableViewController.swift */,
 				A38E1D011BEA57AA000F3A58 /* Assets.xcassets */,
 				A38E1D031BEA57AA000F3A58 /* LaunchScreen.storyboard */,
 				A38E1D061BEA57AA000F3A58 /* Info.plist */,
@@ -282,6 +288,8 @@
 				A38E1D2D1BEA5B88000F3A58 /* Flick_Model.swift in Sources */,
 				A38E1CFB1BEA57AA000F3A58 /* AppDelegate.swift in Sources */,
 				A38E1D2A1BEA57E7000F3A58 /* Constants.swift in Sources */,
+				A38E1D2F1BEA8AEC000F3A58 /* tableViewController.swift in Sources */,
+				A38E1D311BEA8C1C000F3A58 /* myTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

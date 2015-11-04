@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
 
     @IBOutlet weak var photoTitle: UILabel!
     
@@ -19,7 +21,7 @@ class ViewController: UIViewController {
     
     @IBAction func getImageFromFlickr(sender: AnyObject) {
         
-        myFlickerModel.getImageFromFlickr()
+        
         
     }
     
