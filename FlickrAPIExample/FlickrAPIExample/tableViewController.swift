@@ -20,8 +20,6 @@ class tableViewController: UIViewController, UITableViewDataSource, UITableViewD
 
             myCurrentImage = Flick_Model(photoView: cell.myImage, myTitle: cell.myLabel)
 
-        
-        
         return cell
     }
     
@@ -32,11 +30,7 @@ class tableViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-       // myTable = myTableViewCell()
-       // myCurrentImage = Flick_Model(photoView: myTable.myImage, myTitle: myTable.myLabel)
-
-       // myCurrentImage.getImageFromFlickr()
-        // Do any additional setup after loading the view.
+       
     }
 
     override func didReceiveMemoryWarning() {

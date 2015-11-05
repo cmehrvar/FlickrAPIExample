@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A38E1CFB1BEA57AA000F3A58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38E1CFA1BEA57AA000F3A58 /* AppDelegate.swift */; };
-		A38E1CFD1BEA57AA000F3A58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38E1CFC1BEA57AA000F3A58 /* ViewController.swift */; };
 		A38E1D001BEA57AA000F3A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38E1CFE1BEA57AA000F3A58 /* Main.storyboard */; };
 		A38E1D021BEA57AA000F3A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A38E1D011BEA57AA000F3A58 /* Assets.xcassets */; };
 		A38E1D051BEA57AA000F3A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38E1D031BEA57AA000F3A58 /* LaunchScreen.storyboard */; };
@@ -40,7 +39,6 @@
 /* Begin PBXFileReference section */
 		A38E1CF71BEA57AA000F3A58 /* FlickrAPIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrAPIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A38E1CFA1BEA57AA000F3A58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A38E1CFC1BEA57AA000F3A58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A38E1CFF1BEA57AA000F3A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A38E1D011BEA57AA000F3A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A38E1D041BEA57AA000F3A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 				A38E1D2B1BEA5B47000F3A58 /* Model */,
 				A38E1D281BEA57C5000F3A58 /* Utils */,
 				A38E1CFA1BEA57AA000F3A58 /* AppDelegate.swift */,
-				A38E1CFC1BEA57AA000F3A58 /* ViewController.swift */,
 				A38E1CFE1BEA57AA000F3A58 /* Main.storyboard */,
 				A38E1D301BEA8C1C000F3A58 /* myTableViewCell.swift */,
 				A38E1D2E1BEA8AEC000F3A58 /* tableViewController.swift */,
@@ -284,7 +281,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A38E1CFD1BEA57AA000F3A58 /* ViewController.swift in Sources */,
 				A38E1D2D1BEA5B88000F3A58 /* Flick_Model.swift in Sources */,
 				A38E1CFB1BEA57AA000F3A58 /* AppDelegate.swift in Sources */,
 				A38E1D2A1BEA57E7000F3A58 /* Constants.swift in Sources */,
@@ -516,6 +512,7 @@
 				A38E1D211BEA57AA000F3A58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A38E1D221BEA57AA000F3A58 /* Build configuration list for PBXNativeTarget "FlickrAPIExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +521,7 @@
 				A38E1D241BEA57AA000F3A58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A38E1D251BEA57AA000F3A58 /* Build configuration list for PBXNativeTarget "FlickrAPIExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +530,7 @@
 				A38E1D271BEA57AA000F3A58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

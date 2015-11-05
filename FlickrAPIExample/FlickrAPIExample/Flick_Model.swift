@@ -5,9 +5,12 @@ class Flick_Model: NSObject {
     
     private var photoImageView: UIImageView!
     private var photoTitle: UILabel!
+    
+    
     // variable for all images
     var myArrayOfPhotos = [NSData]()
     var myArrayOfTitles = [String]()
+    
     
     init(photoView: UIImageView, myTitle: UILabel) {
         super.init()
