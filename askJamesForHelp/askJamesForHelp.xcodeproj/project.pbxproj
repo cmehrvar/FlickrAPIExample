@@ -488,6 +488,7 @@
 				A38E1D651BEA8CA5000F3A58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A38E1D661BEA8CA5000F3A58 /* Build configuration list for PBXNativeTarget "askJamesForHelpTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +497,7 @@
 				A38E1D681BEA8CA5000F3A58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A38E1D691BEA8CA5000F3A58 /* Build configuration list for PBXNativeTarget "askJamesForHelpUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +506,7 @@
 				A38E1D6B1BEA8CA5000F3A58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -39,11 +39,17 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <animations/>
+                                <gestureRecognizers/>
                                 <connections>
+                                    <outlet property="cellCentringConstraint" destination="LZa-f3-Uv5" id="29E-N5-hXH"/>
                                     <outlet property="myCellImage" destination="8Bm-XH-XWs" id="pTI-1w-Muk"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="BYZ-38-t0r" id="Oab-D0-0mc"/>
+                            <outlet property="delegate" destination="BYZ-38-t0r" id="RJA-rD-5CV"/>
+                        </connections>
                     </tableView>
                     <connections>
                         <outlet property="myTableView" destination="idJ-22-a5q" id="Lyu-ZQ-ygX"/>
